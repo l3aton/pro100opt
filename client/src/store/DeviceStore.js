@@ -14,27 +14,27 @@ export default class DeviceStore {
             {id:2, name: 'Apple'}
         ]
         this._devices = [
-            {id:1, name: 'Iphone 12 pro', price: 10000, img: '.../server/static/978c404f-1e75-43e2-9816-62d448718efe.jpg'},
-            {id:2, name: 'Iphone 12 pro', price: 10000, img: '.../server/static/978c404f-1e75-43e2-9816-62d448718efe.jpg'},
-            {id:3, name: 'Iphone 12 pro', price: 10000, img: '.../server/static/978c404f-1e75-43e2-9816-62d448718efe.jpg'},
-            {id:5, name: 'Iphone 12 pro', price: 10000, img: '.../server/static/978c404f-1e75-43e2-9816-62d448718efe.jpg'},
-            {id:6, name: 'Iphone 12 pro', price: 10000, img: '.../server/static/978c404f-1e75-43e2-9816-62d448718efe.jpg'},
-            {id:7, name: 'Iphone 12 pro', price: 10000, img: '.../server/static/978c404f-1e75-43e2-9816-62d448718efe.jpg'},
-            {id:8, name: 'Iphone 12 pro', price: 10000, img: '.../server/static/978c404f-1e75-43e2-9816-62d448718efe.jpg'},
-            {id:9, name: 'Iphone 12 pro', price: 10000, img: '.../server/static/978c404f-1e75-43e2-9816-62d448718efe.jpg'},
-            {id:11, name: 'Iphone 12 pro', price: 10000, img: '.../server/static/978c404f-1e75-43e2-9816-62d448718efe.jpg'},
-            {id:12, name: 'Iphone 12 pro', price: 10000, img: '.../server/static/978c404f-1e75-43e2-9816-62d448718efe.jpg'},
-            {id:13, name: 'Iphone 12 pro', price: 10000, img: '.../server/static/978c404f-1e75-43e2-9816-62d448718efe.jpg'},
-            {id:14, name: 'Iphone 12 pro', price: 10000, img: '.../server/static/978c404f-1e75-43e2-9816-62d448718efe.jpg'},
-            {id:15, name: 'Iphone 12 pro', price: 10000, img: '.../server/static/978c404f-1e75-43e2-9816-62d448718efe.jpg'},
-            {id:16, name: 'Iphone 12 pro', price: 10000, img: '.../server/static/978c404f-1e75-43e2-9816-62d448718efe.jpg'},
-            {id:17, name: 'Iphone 12 pro', price: 10000, img: '.../server/static/978c404f-1e75-43e2-9816-62d448718efe.jpg'},
-            {id:18, name: 'Iphone 12 pro', price: 10000, img: '.../server/static/978c404f-1e75-43e2-9816-62d448718efe.jpg'},
-            {id:19, name: 'Iphone 12 pro', price: 10000, img: '.../server/static/978c404f-1e75-43e2-9816-62d448718efe.jpg'},
-            {id:20, name: 'Iphone 12 pro', price: 10000, img: '.../server/static/978c404f-1e75-43e2-9816-62d448718efe.jpg'},
-            {id:21, name: 'Iphone 12 pro', price: 10000, img: '.../server/static/978c404f-1e75-43e2-9816-62d448718efe.jpg'},
-            {id:22, name: 'Iphone 12 pro', price: 10000, img: '.../server/static/978c404f-1e75-43e2-9816-62d448718efe.jpg'},
-            {id:23, name: 'Iphone 12 pro', price: 10000, img: '.../server/static/978c404f-1e75-43e2-9816-62d448718efe.jpg'}
+            {id:1, name: 'Iphone 12 pro', price: 10000, img: '/978c404f-1e75-43e2-9816-62d448718efe.jpg'},
+            {id:2, name: 'Iphone 12 pro', price: 10000, img: '/978c404f-1e75-43e2-9816-62d448718efe.jpg'},
+            {id:3, name: 'Iphone 12 pro', price: 10000, img: '/978c404f-1e75-43e2-9816-62d448718efe.jpg'},
+            {id:5, name: 'Iphone 12 pro', price: 10000, img: '/978c404f-1e75-43e2-9816-62d448718efe.jpg'},
+            {id:6, name: 'Iphone 12 pro', price: 10000, img: '/978c404f-1e75-43e2-9816-62d448718efe.jpg'},
+            {id:7, name: 'Iphone 12 pro', price: 10000, img: '/978c404f-1e75-43e2-9816-62d448718efe.jpg'},
+            {id:8, name: 'Iphone 12 pro', price: 10000, img: '/978c404f-1e75-43e2-9816-62d448718efe.jpg'},
+            {id:9, name: 'Iphone 12 pro', price: 10000, img: '/978c404f-1e75-43e2-9816-62d448718efe.jpg'},
+            {id:11, name: 'Iphone 12 pro', price: 10000, img: '/978c404f-1e75-43e2-9816-62d448718efe.jpg'},
+            {id:12, name: 'Iphone 12 pro', price: 10000, img: '/978c404f-1e75-43e2-9816-62d448718efe.jpg'},
+            {id:13, name: 'Iphone 12 pro', price: 10000, img: '/978c404f-1e75-43e2-9816-62d448718efe.jpg'},
+            {id:14, name: 'Iphone 12 pro', price: 10000, img: '/978c404f-1e75-43e2-9816-62d448718efe.jpg'},
+            {id:15, name: 'Iphone 12 pro', price: 10000, img: '/978c404f-1e75-43e2-9816-62d448718efe.jpg'},
+            {id:16, name: 'Iphone 12 pro', price: 10000, img: '/978c404f-1e75-43e2-9816-62d448718efe.jpg'},
+            {id:17, name: 'Iphone 12 pro', price: 10000, img: '/978c404f-1e75-43e2-9816-62d448718efe.jpg'},
+            {id:18, name: 'Iphone 12 pro', price: 10000, img: '/978c404f-1e75-43e2-9816-62d448718efe.jpg'},
+            {id:19, name: 'Iphone 12 pro', price: 10000, img: '/978c404f-1e75-43e2-9816-62d448718efe.jpg'},
+            {id:20, name: 'Iphone 12 pro', price: 10000, img: '/978c404f-1e75-43e2-9816-62d448718efe.jpg'},
+            {id:21, name: 'Iphone 12 pro', price: 10000, img: '/978c404f-1e75-43e2-9816-62d448718efe.jpg'},
+            {id:22, name: 'Iphone 12 pro', price: 10000, img: '/978c404f-1e75-43e2-9816-62d448718efe.jpg'},
+            {id:23, name: 'Iphone 12 pro', price: 10000, img: '/978c404f-1e75-43e2-9816-62d448718efe.jpg'}
         ]
         this._selectedType = {};
         makeAutoObservable(this)
