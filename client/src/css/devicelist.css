@@ -1,0 +1,6 @@
+.container-devicelist{
+    margin-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
