@@ -9,6 +9,14 @@ export default class DeviceStore {
             {id: 4, name: 'Кавомашини'},
             {id: 5, name: 'Смарт годинники'},
         ]
+        this._semiTypes = [
+            {id: 1, name: 'sub cat 1', typeId: 1},
+            {id: 2, name: 'sub cat 2', typeId: 2},
+            {id: 3, name: 'sub cat 3', typeId: 3},
+            {id: 4, name: 'sub cat 4', typeId: 4},
+            {id: 5, name: 'sub cat 5', typeId: 5},
+            {id: 6, name: 'sub cat 6', typeId: 6}
+        ]
         this._brands = [
             {id: 1, name: 'Samsung'},
             {id:2, name: 'Apple'}
@@ -55,6 +63,10 @@ export default class DeviceStore {
         this._selectedType = type;
     }
 
+    get semiTypes() {
+        return this._semiTypes;
+      }
+      
     get types() {
         return this._types
     }

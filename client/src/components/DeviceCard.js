@@ -7,7 +7,10 @@ const DeviceCard = ({device}) => {
         <div className='cards-container'>
             <img src={process.env.REACT_APP_API_URL + device.img} alt="product-photo" className='product-photo'/>
             <div className='device-name'>{device.name}</div>
-            <div>{device.price + ' грн'}<button className='buy-button'>Купити</button></div>
+            <div className='device-price'>
+                {device.price + ' грн'}
+                <button className='buy-button'>Купити</button>
+            </div>
             
         </div>
     )

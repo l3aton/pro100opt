@@ -4,6 +4,7 @@ import Basket from './pages/Basket';
 import Shop from './pages/Shop';
 import Auth from './pages/Auth';
 import DevicePage from './pages/DevicePage';
+import LoginPage from "./pages/LoginPage";
 
 
 export const authRoutes = [
@@ -23,7 +24,7 @@ export const publicRoutes = [
     },
     {
         path: LOGIN_ROUTE,
-        Component: Auth
+        Component: LoginPage
     },
     {
         path: REGESTRATION_ROUTE,

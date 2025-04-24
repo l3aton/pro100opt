@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 // import {Context} from '../index';
 import logo from '../photos/LogoTextTest.png';
 import accLogo from '../photos/account.png';
-import { SHOP_ROUTE } from "../utils/consts";
+
+import { LOGIN_ROUTE, SHOP_ROUTE } from "../utils/consts";
 import '../css/NavBar.css';
 
 const NavBar = () => {
@@ -17,7 +18,9 @@ const NavBar = () => {
                 <a href="tel:+380739538582" className="phone-num">073-953-85-82</a>
                 <input type="text" className="search"/>
                 <button className="basket">basket</button>
+                <Link to={LOGIN_ROUTE}>
                 <img src={accLogo} alt="account" className="acc-logo"/>
+                </Link>
             </div>
             <div className="bottom-nav">
                 <Link to = "/smartphones" className="link-cat">Смартфони,<br /> 
